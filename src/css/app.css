@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  height: 100vh;
+  height: 80vh;
   width: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,5 +29,32 @@ body {
   letter-spacing: 0.8rem;
   text-transform: uppercase;
   color: #505bc7;
+}
+
+.nav {
+  width: 70%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.nav ul a {
+  color: #505bc7;
+  text-transform: capitalize;
+  font-size: 2rem;
+  text-decoration: none;
+  letter-spacing: 0.5rem;
+}
+
+.nav ul a:hover {
+  color: #273191;
 }
 /*# sourceMappingURL=app.css.map */
