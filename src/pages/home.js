@@ -11,10 +11,7 @@ export default function HomePage() {
       <Helmet>
         <title>This is the title</title>
       </Helmet>
-      <h1>
-        <FaBeer className="dark" /> React Template
-      </h1>
-      This is more for personal useage but please feel free to use.
+      <h1 className="text-purple-400 text-4xl uppercase">building</h1>
     </div>
   );
 }
